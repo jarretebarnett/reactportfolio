@@ -29,7 +29,7 @@ html {
 
 a.btn.btn-dark {
   font-size: 11px;
-  opacity: 75%;
+  /* opacity: 75%; */
 }
 
 nav.navbar {
