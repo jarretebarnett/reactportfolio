@@ -27,7 +27,7 @@ html {
   height: 100%;
 }
 
-.btn.btn-dark {
+a.btn.btn-dark {
   font-size: 11px;
   opacity: 75%;
 }
