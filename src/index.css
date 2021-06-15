@@ -126,7 +126,7 @@ a.nav-link {
 }
 
 img {
-  opacity: 89%;
+  opacity: 89% !important;
 }
 
 footer {

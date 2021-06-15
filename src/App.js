@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter basename = "/reactportfolio">
+    <BrowserRouter basename = {process.env.PUBLIC_URL}>
       <Nav />
         <Switch>
           <Route component = {Home} path = "/" exact />
