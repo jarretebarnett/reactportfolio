@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
 import Catalog from "./components/Catalog";
@@ -9,9 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <HashRouter 
-    //basename = {process.env.PUBLIC_URL}
-    >
+    <BrowserRouter basename = {process.env.PUBLIC_URL}>
       <Nav />
         <Switch>
           <Route component = {Home} path = "/reactportfolio" exact />
@@ -19,7 +17,7 @@ function App() {
           <Route component = {About} path = "/reactportfolio/about" />
         </Switch>
       <Footer />
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
