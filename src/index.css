@@ -125,8 +125,8 @@ a.nav-link {
   text-decoration: #6c757d;
 }
 
-img {
-  opacity: 0.89;
+.card-body img {
+  opacity: 89% !important;
 }
 
 footer {
