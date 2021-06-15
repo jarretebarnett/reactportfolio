@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
 import Catalog from "./components/Catalog";
@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter 
+    <HashRouter 
     //basename = {process.env.PUBLIC_URL}
     >
       <Nav />
@@ -19,7 +19,7 @@ function App() {
           <Route component = {About} path = "/about" />
         </Switch>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
