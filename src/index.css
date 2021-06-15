@@ -51,7 +51,7 @@ h5 {
   font-size: 13px;
   font-weight: lighter;
   color: snow;
-  opacity: 89%;
+  /* opacity: 89%; */
   padding-left: 30px;
   padding-right: 30px;
   margin: 10px; /* tb */
@@ -60,7 +60,7 @@ h5 {
 p {
   margin-top: 10px;
   font-size: 12px;
-  opacity: 89%;
+  /* opacity: 89%; */
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 0 1rem;
@@ -116,7 +116,7 @@ div.col-12 {
 
 .navbar-brand {
   font-family: 'Chakra Petch';
-  opacity: 89%;
+  /* opacity: 89%; */
 }
 
 a.nav-link {
@@ -125,9 +125,9 @@ a.nav-link {
   text-decoration: #6c757d;
 }
 
-.card-body img {
+/* .card-body img {
   opacity: 89% !important;
-}
+} */
 
 footer {
   text-align: center;
