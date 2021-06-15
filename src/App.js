@@ -9,7 +9,9 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter basename = {process.env.PUBLIC_URL}>
+    <BrowserRouter 
+    //basename = {process.env.PUBLIC_URL}
+    >
       <Nav />
         <Switch>
           <Route component = {Home} path = "/" exact />
