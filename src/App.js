@@ -14,9 +14,9 @@ function App() {
     >
       <Nav />
         <Switch>
-          <Route component = {Home} path = "/" exact />
-          <Route component = {Catalog} path = "/catalog" />
-          <Route component = {About} path = "/about" />
+          <Route component = {Home} path = "/reactportfolio" exact />
+          <Route component = {Catalog} path = "/reactportfolio/catalog" />
+          <Route component = {About} path = "/reactportfolio/about" />
         </Switch>
       <Footer />
     </HashRouter>
