@@ -7,11 +7,11 @@ function Nav() {
       <div className="container">
         <div className="row-cols-auto">
           <div className="navbar" id="navbarNav">
-            <a className="navbar-brand" href="/">
+            <a className="navbar-brand" href="/reactportfolio">
               Jarreté Barnett
             </a>
-            <a className="nav-link" href="/catalog">Portfolio</a>
-            <a className="nav-link" href="/about">Contact | About</a>
+            <a className="nav-link" href="/reactportfolio/catalog">Portfolio</a>
+            <a className="nav-link" href="/reactportfolio/about">Contact | About</a>
             <a className="nav-link" href={resume} rel="noreferrer" target="_blank">Résumé</a>
           </div>
         </div>
