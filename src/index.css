@@ -7,15 +7,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #6c757d;
+  background-color: #6c757d;
   background-image: url(./img/building.jpeg);
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
-  height: 100%; */
+  height: 100%;
   position:relative; 
   padding-bottom:[footer-height];
-  /* overflow: scroll; */
+  overflow: scroll;
 }
 
 code {
@@ -43,16 +43,6 @@ div.jumbotron {
   font-family: 'Chakra Petch';
   font-size: 50px;
   color: #212529e1;
-}
-
-div.container-fluid {
-  background-color: #6c757d;
-  background-image: url(./img/building.jpeg);
-  background-size: cover;
-  background-attachment: fixed;
-  width: 100%;
-	height: 100%;
-	overflow: scroll;
 }
 
 h5 {
