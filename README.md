@@ -1,6 +1,6 @@
 # React Portfolio
 
-Provided in this repository is a responsive portfolio which serves as a showcase of assignment work and personal projects. This will continue to grow over time as projects become more abundant. 
+Provided in this repository is a responsive portfolio structured with React.js, which serves as a showcase of assignment work and personal projects. This will continue to grow over time as projects become more abundant. 
 
 ## Components
 
