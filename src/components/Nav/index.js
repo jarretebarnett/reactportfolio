@@ -10,8 +10,8 @@ function Nav() {
             <a className="navbar-brand" href="/reactportfolio">
               Jarreté Barnett
             </a>
-            <a className="nav-link" href="/reactportfolio/#/catalog">Portfolio</a>
-            <a className="nav-link" href="/reactportfolio/#/about">Contact | About</a>
+            <a className="nav-link" href="/reactportfolio/#/portfolio">Portfolio</a>
+            <a className="nav-link" href="/reactportfolio/#/contact">Contact | About</a>
             <a className="nav-link" href={resume} rel="noreferrer" target="_blank">Résumé</a>
           </div>
         </div>

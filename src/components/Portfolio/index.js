@@ -17,7 +17,7 @@ import dayplanner from "../../img/plannerheader.png";
 import pwgen from "../../img/passwordgen.png";
 import horiseon from "../../img/horiseon.png";
 
-function Catalog() {
+function Portfolio() {
     return (
         <div className="container-fluid">
             <br />
@@ -298,4 +298,4 @@ function Catalog() {
     );
 }
 
-export default Catalog;
+export default Portfolio;

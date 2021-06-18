@@ -21,7 +21,7 @@ import sql from "../../img/sql.png";
 import api from "../../img/api.png";
 import handlebars from "../../img/handlebarsjs.png";
 
-function About() {
+function Contact() {
     return (
         <div className="container-fluid">
             <br />
@@ -122,4 +122,4 @@ function About() {
     );
 }
 
-export default About;
+export default Contact;
