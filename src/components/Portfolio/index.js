@@ -10,12 +10,10 @@ import ecommerce from "../../img/ecommerce.png";
 import employeetracker from "../../img/employeetracker.png";
 import genreadme from "../../img/genreadme.png";
 import notetaker from "../../img/notetaker.png";
-import teamprofilegen from "../../img/teamprofilegen.png";
 import lyrichord from "../../img/overall.PNG";
 import weatherdashboard from "../../img/weatherdash.png";
 import dayplanner from "../../img/plannerheader.png";
 import pwgen from "../../img/passwordgen.png";
-import horiseon from "../../img/horiseon.png";
 import trekgambit from "../../img/trekgambit.png";
 
 function Portfolio() {
@@ -212,23 +210,6 @@ function Portfolio() {
             <div className="row">
                 <div className="col-12">
                     <div className="card mb-3" style={{ maxWidth: 350 }}>
-                        <img src={teamprofilegen} className="card-img-top" alt=""></img>
-                        <div className="card-body">
-                            <br />
-                            <a href="https://jarretebarnett.github.io/teamprofilegen/" rel="noreferrer" target="_blank" className="btn btn-dark"><img src={eyeicon} style={{ maxWidth: 11 }} alt=""></img> Team Profile Generator</a>
-                            <br />
-                            <br />
-                            <p className="card-text">This application consists of back-end JavaScript, which prompts user for information regarding their development team in order to generate the input into a working HTML page.</p>
-                            <a href="https://github.com/jarretebarnett/teamprofilegen" rel="noreferrer" target="_blank"><img src={githublogo} style={{ maxWidth: 22 }} alt=""></img></a>
-                        </div>
-                        <br />
-                    </div>
-                </div>
-            </div>
-            <br />
-            <div className="row">
-                <div className="col-12">
-                    <div className="card mb-3" style={{ maxWidth: 350 }}>
                         <img src={lyrichord} className="card-img-top" alt=""></img>
                         <div className="card-body">
                             <br />
@@ -288,23 +269,6 @@ function Portfolio() {
                             <br />
                             <p className="card-text">A series of prompts verifies a criteria for randomizing a password for users.</p>
                             <a href="https://github.com/jarretebarnett/pwgen" rel="noreferrer" target="_blank"><img src={githublogo} style={{ maxWidth: 22 }} alt=""></img></a>
-                        </div>
-                        <br />
-                    </div>
-                </div>
-            </div>
-            <br />
-            <div className="row">
-                <div className="col-12">
-                    <div className="card mb-3" style={{ maxWidth: 350 }}>
-                        <img src={horiseon} className="card-img-top" alt=""></img>
-                        <div className="card-body">
-                            <br />
-                            <a href="https://jarretebarnett.github.io/horiseon/" rel="noreferrer" target="_blank" className="btn btn-dark"><img src={eyeicon} style={{ maxWidth: 11 }} alt=""></img> Horiseon</a>
-                            <br />
-                            <br />
-                            <p className="card-text">A working mock site for a search engine optimization firm.</p>
-                            <a href="https://github.com/jarretebarnett/horiseon" rel="noreferrer" target="_blank"><img src={githublogo} style={{ maxWidth: 22 }} alt=""></img></a>
                         </div>
                         <br />
                     </div>
