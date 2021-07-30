@@ -20,6 +20,9 @@ import socketio from "../../img/socketio.png";
 import sql from "../../img/sql.png";
 import api from "../../img/api.png";
 import handlebars from "../../img/handlebarsjs.png";
+import angularjs from "../../img/angular.png";
+import typescript from "../../img/typescript.png";
+import java from "../../img/java.png";
 
 function Contact() {
     return (
@@ -65,20 +68,25 @@ function Contact() {
                                 Proficiencies
                             </h5>
                             <br />
-                            <div className="row-cols-auto">
-                                <a href><img src={html} style={{ maxWidth: 33 }} alt=""></img></a>
-                                <a href><img src={css} style={{ maxWidth: 34 }} alt=""></img></a>
-                                <a href><img src={js} style={{ maxWidth: 45 }} alt=""></img></a>
-                                <a href><img src={jquery} style={{ maxWidth: 52 }} alt=""></img></a>
-                                <a href><img src={reactjs} style={{ maxWidth: 44 }} alt=""></img></a>
-                                <a href><img src={node} style={{ maxWidth: 37 }} alt=""></img></a>
-                                <a href><img src={npm} style={{ maxWidth: 54 }} alt=""></img></a>
-                                <a href><img src={nodemon} style={{ maxWidth: 43 }} alt=""></img></a>
-                                <a href><img src={dotenv} style={{ maxWidth: 41 }} alt=""></img></a>
-                                <a href><img src={socketio} style={{ maxWidth: 40 }} alt=""></img></a>
-                                <a href><img src={sql} style={{ maxWidth: 40 }} alt=""></img></a>
-                                <a href><img src={api} style={{ maxWidth: 53 }} alt=""></img></a>
-                                <a href><img src={handlebars} style={{ maxWidth: 46 }} alt=""></img></a>
+                            <div>
+                                <div className="row-cols-auto">
+                                    <a href><img src={html} style={{ maxWidth: 33 }} alt=""></img></a>
+                                    <a href><img src={css} style={{ maxWidth: 34 }} alt=""></img></a>
+                                    <a href><img src={java} style={{ maxWidth: 37 }} alt=""></img></a>
+                                    <a href><img src={js} style={{ maxWidth: 45 }} alt=""></img></a>
+                                    <a href><img src={typescript} style={{ maxWidth: 45 }} alt=""></img></a>
+                                    <a href><img src={jquery} style={{ maxWidth: 52 }} alt=""></img></a>
+                                    <a href><img src={angularjs} style={{ maxWidth: 41 }} alt=""></img></a>
+                                    <a href><img src={reactjs} style={{ maxWidth: 44 }} alt=""></img></a>
+                                    <a href><img src={node} style={{ maxWidth: 37 }} alt=""></img></a>
+                                    <a href><img src={npm} style={{ maxWidth: 54 }} alt=""></img></a>
+                                    <a href><img src={nodemon} style={{ maxWidth: 43 }} alt=""></img></a>
+                                    <a href><img src={dotenv} style={{ maxWidth: 41 }} alt=""></img></a>
+                                    <a href><img src={socketio} style={{ maxWidth: 40 }} alt=""></img></a>
+                                    <a href><img src={sql} style={{ maxWidth: 40 }} alt=""></img></a>
+                                    <a href><img src={api} style={{ maxWidth: 53 }} alt=""></img></a>
+                                    <a href><img src={handlebars} style={{ maxWidth: 46 }} alt=""></img></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -101,17 +109,6 @@ function Contact() {
                             <a href="https://www.youtube.com/channel/UCrvMqVxDXQxNlDNoavSRh5g" rel="noreferrer" target="_blank"><img src={youtube} style={{ maxWidth: 50 }} alt=""></img></a>
                             <a href="https://www.twitch.tv/jaewhybe" rel="noreferrer" target="_blank"><img src={twitch} style={{ maxWidth: 31 }} alt=""></img></a>
                             </div>
-                            <form onSubmit="mailto:jarretebarnett@gmail.com" id="form" method="POST" encType="multipart/form-data">
-                                <div className="mb-3">
-                                    <label for="emailInput" className="form-label">Email:</label>
-                                    <input type="email" className="form-control" id="emailInput" placeholder="Your Email Address"></input>
-                                </div>
-                                <div className="mb-3">
-                                    <label for="messageInput" className="form-label">Message:</label>
-                                    <textarea className="form-control" id="messageInput" rows="5"></textarea>
-                                </div>
-                                <a href className="btn btn-dark" id="submit">Submit</a>
-                            </form>
                         </div>
                     </div>
                 </div>

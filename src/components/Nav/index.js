@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../../docs/Resume.pdf";
+import resume from "../../docs/ResumeCert.pdf";
 
 function Nav() {
   return (
