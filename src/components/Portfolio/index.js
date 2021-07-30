@@ -16,6 +16,7 @@ import weatherdashboard from "../../img/weatherdash.png";
 import dayplanner from "../../img/plannerheader.png";
 import pwgen from "../../img/passwordgen.png";
 import horiseon from "../../img/horiseon.png";
+import trekgambit from "../../img/trekgambit.png";
 
 function Portfolio() {
     return (
@@ -37,6 +38,23 @@ function Portfolio() {
                 Selecting the  <a href="https://github.com/jarretebarnett" rel="noreferrer" target="_blank"><img src={githublogo} style={{ maxWidth: 16 }} alt=""></img></a>  icon will guide you directly to the appropriate respository or the respective deployed application.
             </h5>
             <br />
+            <br />
+            <div className="row">
+                <div className="col-12">
+                    <div className="card mb-3" style={{ maxWidth: 350 }}>
+                        <img src={trekgambit} className="card-img-top" alt=""></img>
+                        <div className="card-body">
+                            <br />
+                            <a href="https://quiet-harbor-96544.herokuapp.com/" rel="noreferrer" target="_blank" className="btn btn-dark"><img src={eyeicon} style={{ maxWidth: 11 }} alt=""></img> Trek Gambit</a>
+                            <br />
+                            <br />
+                            <p className="card-text">This application is designed to help you search for any national park and obtain all relevent information about each park. Create a profile to post about a visit or future visit and see it displayed on a home feed where you'll be able to see other posts from other users. The application is built using Javascript, HTML5, CSS, React, and the database created using Sequelize and MySQL. National park information is provided by the National Park services API.</p>
+                            <a href="https://github.com/jarretebarnett/trekgambit" rel="noreferrer" target="_blank"><img src={githublogo} style={{ maxWidth: 22 }} alt=""></img></a>
+                        </div>
+                        <br />
+                    </div>
+                </div>
+            </div>
             <br />
             <div className="row">
                 <div className="col-12">

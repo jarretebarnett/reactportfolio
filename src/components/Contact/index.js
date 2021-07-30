@@ -68,7 +68,7 @@ function Contact() {
                                 Proficiencies
                             </h5>
                             <br />
-                            <div>
+                            <div className="padding">
                                 <div className="row-cols-auto">
                                     <a href><img src={html} style={{ maxWidth: 33 }} alt=""></img></a>
                                     <a href><img src={css} style={{ maxWidth: 34 }} alt=""></img></a>
@@ -76,7 +76,7 @@ function Contact() {
                                     <a href><img src={js} style={{ maxWidth: 45 }} alt=""></img></a>
                                     <a href><img src={typescript} style={{ maxWidth: 45 }} alt=""></img></a>
                                     <a href><img src={jquery} style={{ maxWidth: 52 }} alt=""></img></a>
-                                    <a href><img src={angularjs} style={{ maxWidth: 41 }} alt=""></img></a>
+                                    <a href><img src={angularjs} style={{ maxWidth: 39 }} alt=""></img></a>
                                     <a href><img src={reactjs} style={{ maxWidth: 44 }} alt=""></img></a>
                                     <a href><img src={node} style={{ maxWidth: 37 }} alt=""></img></a>
                                     <a href><img src={npm} style={{ maxWidth: 54 }} alt=""></img></a>
@@ -100,14 +100,16 @@ function Contact() {
                             <h5 className="card-title">
                                 Contact
                             </h5>
-                            <div className="row-cols-auto">
-                            <a href="https://www.github.com/jarretebarnett/" rel="noreferrer" target="_blank"><img src={github} style={{ maxWidth: 33 }} alt=""></img></a>
-                            <a href="https://www.linkedin.com/in/jarretebarnett/" rel="noreferrer" target="_blank"><img src={linkedin} style={{ maxWidth: 40 }} alt=""></img></a>
-                            <a href="https://www.facebook.com/jarrete.y.barnett/" rel="noreferrer" target="_blank"><img src={facebook} style={{ maxWidth: 36 }} alt=""></img></a>
-                            <a href="https://twitter.com/jarrete_barnett" rel="noreferrer" target="_blank"><img src={twitter} style={{ maxWidth: 38 }} alt=""></img></a>
-                            <a href="https://www.instagram.com/jarretebarnett/" rel="noreferrer" target="_blank"><img src={instagram} style={{ maxWidth: 31 }} alt=""></img></a>
-                            <a href="https://www.youtube.com/channel/UCrvMqVxDXQxNlDNoavSRh5g" rel="noreferrer" target="_blank"><img src={youtube} style={{ maxWidth: 50 }} alt=""></img></a>
-                            <a href="https://www.twitch.tv/jaewhybe" rel="noreferrer" target="_blank"><img src={twitch} style={{ maxWidth: 31 }} alt=""></img></a>
+                            <div className="padding">
+                                <div className="row-cols-auto">
+                                <a href="https://www.github.com/jarretebarnett/" rel="noreferrer" target="_blank"><img src={github} style={{ maxWidth: 33 }} alt=""></img></a>
+                                <a href="https://www.linkedin.com/in/jarretebarnett/" rel="noreferrer" target="_blank"><img src={linkedin} style={{ maxWidth: 40 }} alt=""></img></a>
+                                <a href="https://www.facebook.com/jarrete.y.barnett/" rel="noreferrer" target="_blank"><img src={facebook} style={{ maxWidth: 36 }} alt=""></img></a>
+                                <a href="https://twitter.com/jarrete_barnett" rel="noreferrer" target="_blank"><img src={twitter} style={{ maxWidth: 38 }} alt=""></img></a>
+                                <a href="https://www.instagram.com/jarretebarnett/" rel="noreferrer" target="_blank"><img src={instagram} style={{ maxWidth: 31 }} alt=""></img></a>
+                                <a href="https://www.youtube.com/channel/UCrvMqVxDXQxNlDNoavSRh5g" rel="noreferrer" target="_blank"><img src={youtube} style={{ maxWidth: 50 }} alt=""></img></a>
+                                <a href="https://www.twitch.tv/jaewhybe" rel="noreferrer" target="_blank"><img src={twitch} style={{ maxWidth: 31 }} alt=""></img></a>
+                                </div>
                             </div>
                         </div>
                     </div>
