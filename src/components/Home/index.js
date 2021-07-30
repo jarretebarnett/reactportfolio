@@ -3,6 +3,7 @@ import eyeicon from "../../img/eyeicon.png";
 import closeheadshot from "../../img/closeheadshot.png";
 import fitnessdash from "../../img/fitnessdash.png";
 import resumecloseup from "../../img/resumecloseup.png";
+import resume from "../../docs/ResumeCert.pdf";
 
 function Home() {
     return (
@@ -28,7 +29,7 @@ function Home() {
                         <img src={closeheadshot} className="card-img-top" alt=""></img>
                         <div className="card-body">
                             <br />
-                            <a href="/contact" class="btn btn-dark"><img src={eyeicon} style={{ maxWidth: 11 }} alt=""></img> Contact | About</a>
+                            <a href="/reactportfolio/#/contact" class="btn btn-dark"><img src={eyeicon} style={{ maxWidth: 11 }} alt=""></img> Contact | About</a>
                             <br />
                             <br />
                             <p className="card-text">Additional information about my skillset, objectives and whereabouts.</p>
@@ -44,7 +45,7 @@ function Home() {
                         <img src={fitnessdash} className="card-img-top" alt=""></img>
                         <div class="card-body">
                             <br />
-                            <a href="/portfolio" class="btn btn-dark"><img src={eyeicon} style={{ maxWidth: 11 }} alt=""></img> Portfolio</a>
+                            <a href="/reactportfolio/#/portfolio" class="btn btn-dark"><img src={eyeicon} style={{ maxWidth: 11 }} alt=""></img> Portfolio</a>
                             <br />
                             <br />
                             <p className="card-text">Browse a gallery of working repositories and deployed applications.</p>
@@ -60,7 +61,7 @@ function Home() {
                         <img src={resumecloseup} className="card-img-top" alt=""></img>
                         <div class="card-body">
                             <br />
-                            <a href="/portfolio" class="btn btn-dark"><img src={eyeicon} style={{ maxWidth: 11 }} alt=""></img> Résumé</a>
+                            <a href={resume} class="btn btn-dark"><img src={eyeicon} style={{ maxWidth: 11 }} alt=""></img> Résumé</a>
                             <br />
                             <br />
                             <p className="card-text">View an updated résumé of work experience.</p>
