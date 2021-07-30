@@ -1,8 +1,8 @@
 import React from "react";
 import eyeicon from "../../img/eyeicon.png";
 import closeheadshot from "../../img/closeheadshot.png";
-import fitnessdash from "../../img/fitnessdash.png";
 import resumecloseup from "../../img/resumecloseup.png";
+import trekgambit from "../../img/trekgambit.png";
 import resume from "../../docs/ResumeCert.pdf";
 
 function Home() {
@@ -42,7 +42,7 @@ function Home() {
             <div className="row">
                 <div className="col-12">
                     <div className="card mb-3" style={{ maxWidth: 350 }}>
-                        <img src={fitnessdash} className="card-img-top" alt=""></img>
+                        <img src={trekgambit} className="card-img-top" alt=""></img>
                         <div class="card-body">
                             <br />
                             <a href="/reactportfolio/#/portfolio" class="btn btn-dark"><img src={eyeicon} style={{ maxWidth: 11 }} alt=""></img> Portfolio</a>
