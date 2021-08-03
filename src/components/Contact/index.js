@@ -23,6 +23,8 @@ import handlebars from "../../img/handlebarsjs.png";
 import angularjs from "../../img/angular.png";
 import typescript from "../../img/typescript.png";
 import java from "../../img/java.png";
+import mongologo from "../../img/mongodb.png";
+import awslogo from "../../img/aws.png";
 
 function Contact() {
     return (
@@ -48,12 +50,14 @@ function Contact() {
                                     <br />
                                     Bio
                                 </h5>
-                                <p className="card-title">
-                                    My name is Jarreté Barnett, and I am a practicing Full-Stack Software Engineer. I began my study of web development as a Bootcamp enrollee through the University of Connecticut School of Engineering. Now understanding a formidable range of methods and languages since graduating, the objective is to fortify this skillset into intuitive design which translates efficient back-end behavior into concise, coordinated experiences for client-side users on the front-end which grants them a heightened threshold of control, execution and engagement.
-                                    <br />
-                                    <br />
-                                    In a brief period of time, I have attained the appropriate knowledge to navigate inefficient and dysfunctional bugs, as well as exercise responsive design which cultivates optimal user feedback and interactivity. I am also a working licensed sales associate in real estate, and aspire to command this deft of developmental proficiency into a business-related real estate application for mass utilization.
-                                </p>
+                                <div className="padding">
+                                    <p className="card-title">
+                                        My name is Jarreté Barnett, and I am a practicing Full-Stack Software Engineer. I began my study of web development as a Bootcamp enrollee through the University of Connecticut School of Engineering. Now understanding a formidable range of methods and languages since graduating, the objective is to fortify this skillset into intuitive design which translates efficient back-end behavior into concise, coordinated experiences for client-side users on the front-end which grants them a heightened threshold of control, execution and engagement.
+                                        <br />
+                                        <br />
+                                        In a brief period of time, I have attained the appropriate knowledge to navigate inefficient and dysfunctional bugs, as well as exercise responsive design which cultivates optimal user feedback and interactivity. I am also a working licensed sales associate in real estate, and aspire to command this deft of developmental proficiency into a business-related real estate application for mass utilization.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -70,22 +74,24 @@ function Contact() {
                             <br />
                             <div className="padding">
                                 <div className="row-cols-auto">
-                                    <a href><img src={html} style={{ maxWidth: 33 }} alt=""></img></a>
-                                    <a href><img src={css} style={{ maxWidth: 34 }} alt=""></img></a>
-                                    <a href><img src={java} style={{ maxWidth: 37 }} alt=""></img></a>
-                                    <a href><img src={js} style={{ maxWidth: 45 }} alt=""></img></a>
-                                    <a href><img src={typescript} style={{ maxWidth: 45 }} alt=""></img></a>
-                                    <a href><img src={jquery} style={{ maxWidth: 52 }} alt=""></img></a>
-                                    <a href><img src={angularjs} style={{ maxWidth: 39 }} alt=""></img></a>
-                                    <a href><img src={reactjs} style={{ maxWidth: 44 }} alt=""></img></a>
-                                    <a href><img src={node} style={{ maxWidth: 37 }} alt=""></img></a>
-                                    <a href><img src={npm} style={{ maxWidth: 54 }} alt=""></img></a>
-                                    <a href><img src={nodemon} style={{ maxWidth: 43 }} alt=""></img></a>
-                                    <a href><img src={dotenv} style={{ maxWidth: 41 }} alt=""></img></a>
-                                    <a href><img src={socketio} style={{ maxWidth: 40 }} alt=""></img></a>
-                                    <a href><img src={sql} style={{ maxWidth: 40 }} alt=""></img></a>
-                                    <a href><img src={api} style={{ maxWidth: 53 }} alt=""></img></a>
-                                    <a href><img src={handlebars} style={{ maxWidth: 46 }} alt=""></img></a>
+                                    <img src={html} style={{ maxWidth: 33 }} alt=""></img>
+                                    <img src={css} style={{ maxWidth: 34 }} alt=""></img>
+                                    <img src={java} style={{ maxWidth: 37 }} alt=""></img>
+                                    <img src={js} style={{ maxWidth: 45 }} alt=""></img>
+                                    <img src={typescript} style={{ maxWidth: 45 }} alt=""></img>
+                                    <img src={jquery} style={{ maxWidth: 52 }} alt=""></img>
+                                    <img src={angularjs} style={{ maxWidth: 39 }} alt=""></img>
+                                    <img src={reactjs} style={{ maxWidth: 44 }} alt=""></img>
+                                    <img src={node} style={{ maxWidth: 38 }} alt=""></img>
+                                    <img src={npm} style={{ maxWidth: 54 }} alt=""></img>
+                                    <img src={nodemon} style={{ maxWidth: 44 }} alt=""></img>
+                                    <img src={dotenv} style={{ maxWidth: 41 }} alt=""></img>
+                                    <img src={socketio} style={{ maxWidth: 40 }} alt=""></img>
+                                    <img src={sql} style={{ maxWidth: 40 }} alt=""></img>
+                                    <img src={mongologo} style={{ maxWidth: 37 }} alt=""></img>
+                                    <img src={awslogo} style={{ maxWidth: 43 }} alt=""></img>
+                                    <img src={api} style={{ maxWidth: 53 }} alt=""></img>
+                                    <img src={handlebars} style={{ maxWidth: 46 }} alt=""></img>
                                 </div>
                             </div>
                         </div>

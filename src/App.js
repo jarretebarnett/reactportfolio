@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import Nav from "./components/Nav";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import './App.css';
 
 function App() {
@@ -16,7 +16,6 @@ function App() {
           <Route component = {Portfolio} path = "/portfolio" />
           <Route component = {Contact} path = "/contact" />
         </Switch>
-      <Footer />
     </Router>
   );
 }
