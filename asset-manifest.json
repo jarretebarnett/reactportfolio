@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactportfolio/static/css/main.04aa23f5.chunk.css",
-    "main.js": "/reactportfolio/static/js/main.02aad926.chunk.js",
-    "main.js.map": "/reactportfolio/static/js/main.02aad926.chunk.js.map",
+    "main.js": "/reactportfolio/static/js/main.9d120963.chunk.js",
+    "main.js.map": "/reactportfolio/static/js/main.9d120963.chunk.js.map",
     "runtime-main.js": "/reactportfolio/static/js/runtime-main.4dfa4d7c.js",
     "runtime-main.js.map": "/reactportfolio/static/js/runtime-main.4dfa4d7c.js.map",
     "static/css/2.61b4cb56.chunk.css": "/reactportfolio/static/css/2.61b4cb56.chunk.css",
@@ -14,7 +14,6 @@
     "static/css/2.61b4cb56.chunk.css.map": "/reactportfolio/static/css/2.61b4cb56.chunk.css.map",
     "static/css/main.04aa23f5.chunk.css.map": "/reactportfolio/static/css/main.04aa23f5.chunk.css.map",
     "static/js/2.929a028f.chunk.js.LICENSE.txt": "/reactportfolio/static/js/2.929a028f.chunk.js.LICENSE.txt",
-    "static/media/Facebook.1975b265.png": "/reactportfolio/static/media/Facebook.1975b265.png",
     "static/media/Instagram.2fb2f877.jpg": "/reactportfolio/static/media/Instagram.2fb2f877.jpg",
     "static/media/ResumeCert.bcfcea7b.pdf": "/reactportfolio/static/media/ResumeCert.bcfcea7b.pdf",
     "static/media/Twitch.2e6d630f.png": "/reactportfolio/static/media/Twitch.2e6d630f.png",
@@ -56,6 +55,6 @@
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.929a028f.chunk.js",
     "static/css/main.04aa23f5.chunk.css",
-    "static/js/main.02aad926.chunk.js"
+    "static/js/main.9d120963.chunk.js"
   ]
 }
