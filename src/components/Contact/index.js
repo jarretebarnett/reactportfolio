@@ -2,7 +2,7 @@ import React from "react";
 import headshot from "../../img/headshot.JPG";
 import github from "../../img/githublogo.png";
 import linkedin from "../../img/LinkedIn.png";
-// import facebook from "../../img/Facebook.png";
+import facebook from "../../img/Facebook.png";
 import twitter from "../../img/Twitter.png";
 import instagram from "../../img/Instagram.jpg";
 import youtube from "../../img/YouTube.png";
@@ -110,7 +110,7 @@ function Contact() {
                                 <div className="row-cols-auto">
                                 <a href="https://www.github.com/jarretebarnett/" rel="noreferrer" target="_blank"><img src={github} style={{ maxWidth: 33 }} alt=""></img></a>
                                 <a href="https://www.linkedin.com/in/jarretebarnett/" rel="noreferrer" target="_blank"><img src={linkedin} style={{ maxWidth: 40 }} alt=""></img></a>
-                                {/* <a href="https://www.facebook.com/jarrete.y.barnett/" rel="noreferrer" target="_blank"><img src={facebook} style={{ maxWidth: 36 }} alt=""></img></a> */}
+                                <a href="https://www.facebook.com/jarrete.y.barnett/" rel="noreferrer" target="_blank"><img src={facebook} style={{ maxWidth: 36 }} alt=""></img></a>
                                 <a href="https://twitter.com/jarrete_barnett" rel="noreferrer" target="_blank"><img src={twitter} style={{ maxWidth: 38 }} alt=""></img></a>
                                 <a href="https://www.instagram.com/jarretebarnett/" rel="noreferrer" target="_blank"><img src={instagram} style={{ maxWidth: 31 }} alt=""></img></a>
                                 <a href="https://www.youtube.com/channel/UCrvMqVxDXQxNlDNoavSRh5g" rel="noreferrer" target="_blank"><img src={youtube} style={{ maxWidth: 50 }} alt=""></img></a>
