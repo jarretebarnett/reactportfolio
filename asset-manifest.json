@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactportfolio/static/css/main.04aa23f5.chunk.css",
-    "main.js": "/reactportfolio/static/js/main.70771cd9.chunk.js",
-    "main.js.map": "/reactportfolio/static/js/main.70771cd9.chunk.js.map",
+    "main.js": "/reactportfolio/static/js/main.2a4dee15.chunk.js",
+    "main.js.map": "/reactportfolio/static/js/main.2a4dee15.chunk.js.map",
     "runtime-main.js": "/reactportfolio/static/js/runtime-main.4dfa4d7c.js",
     "runtime-main.js.map": "/reactportfolio/static/js/runtime-main.4dfa4d7c.js.map",
     "static/css/2.61b4cb56.chunk.css": "/reactportfolio/static/css/2.61b4cb56.chunk.css",
@@ -16,7 +16,7 @@
     "static/js/2.929a028f.chunk.js.LICENSE.txt": "/reactportfolio/static/js/2.929a028f.chunk.js.LICENSE.txt",
     "static/media/Facebook.1975b265.png": "/reactportfolio/static/media/Facebook.1975b265.png",
     "static/media/Instagram.2fb2f877.jpg": "/reactportfolio/static/media/Instagram.2fb2f877.jpg",
-    "static/media/ResumeCert.be19c968.pdf": "/reactportfolio/static/media/ResumeCert.be19c968.pdf",
+    "static/media/RésuméCert.4604c4c0.pdf": "/reactportfolio/static/media/RésuméCert.4604c4c0.pdf",
     "static/media/Twitch.2e6d630f.png": "/reactportfolio/static/media/Twitch.2e6d630f.png",
     "static/media/YouTube.98cbaacd.png": "/reactportfolio/static/media/YouTube.98cbaacd.png",
     "static/media/api.38d04a36.png": "/reactportfolio/static/media/api.38d04a36.png",
@@ -47,7 +47,7 @@
     "static/media/passwordgen.8a4c936b.png": "/reactportfolio/static/media/passwordgen.8a4c936b.png",
     "static/media/plannerheader.4fec0c56.png": "/reactportfolio/static/media/plannerheader.4fec0c56.png",
     "static/media/react.1f701177.png": "/reactportfolio/static/media/react.1f701177.png",
-    "static/media/resumecloseup.564a7f31.png": "/reactportfolio/static/media/resumecloseup.564a7f31.png",
+    "static/media/resumecloseup.21f6bc3b.png": "/reactportfolio/static/media/resumecloseup.21f6bc3b.png",
     "static/media/trekgambit.b8a2d363.png": "/reactportfolio/static/media/trekgambit.b8a2d363.png",
     "static/media/weatherdash.53a983df.png": "/reactportfolio/static/media/weatherdash.53a983df.png"
   },
@@ -56,6 +56,6 @@
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.929a028f.chunk.js",
     "static/css/main.04aa23f5.chunk.css",
-    "static/js/main.70771cd9.chunk.js"
+    "static/js/main.2a4dee15.chunk.js"
   ]
 }
