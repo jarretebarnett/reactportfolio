@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactportfolio/static/css/main.04aa23f5.chunk.css",
-    "main.js": "/reactportfolio/static/js/main.2a4dee15.chunk.js",
-    "main.js.map": "/reactportfolio/static/js/main.2a4dee15.chunk.js.map",
+    "main.js": "/reactportfolio/static/js/main.c866cfb0.chunk.js",
+    "main.js.map": "/reactportfolio/static/js/main.c866cfb0.chunk.js.map",
     "runtime-main.js": "/reactportfolio/static/js/runtime-main.4dfa4d7c.js",
     "runtime-main.js.map": "/reactportfolio/static/js/runtime-main.4dfa4d7c.js.map",
     "static/css/2.61b4cb56.chunk.css": "/reactportfolio/static/css/2.61b4cb56.chunk.css",
@@ -14,9 +14,10 @@
     "static/css/2.61b4cb56.chunk.css.map": "/reactportfolio/static/css/2.61b4cb56.chunk.css.map",
     "static/css/main.04aa23f5.chunk.css.map": "/reactportfolio/static/css/main.04aa23f5.chunk.css.map",
     "static/js/2.929a028f.chunk.js.LICENSE.txt": "/reactportfolio/static/js/2.929a028f.chunk.js.LICENSE.txt",
+    "static/media/Certs.904242d1.pdf": "/reactportfolio/static/media/Certs.904242d1.pdf",
     "static/media/Facebook.1975b265.png": "/reactportfolio/static/media/Facebook.1975b265.png",
     "static/media/Instagram.2fb2f877.jpg": "/reactportfolio/static/media/Instagram.2fb2f877.jpg",
-    "static/media/RésuméCert.4604c4c0.pdf": "/reactportfolio/static/media/RésuméCert.4604c4c0.pdf",
+    "static/media/Resume.d6174036.pdf": "/reactportfolio/static/media/Resume.d6174036.pdf",
     "static/media/Twitch.2e6d630f.png": "/reactportfolio/static/media/Twitch.2e6d630f.png",
     "static/media/YouTube.98cbaacd.png": "/reactportfolio/static/media/YouTube.98cbaacd.png",
     "static/media/api.38d04a36.png": "/reactportfolio/static/media/api.38d04a36.png",
@@ -56,6 +57,6 @@
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.929a028f.chunk.js",
     "static/css/main.04aa23f5.chunk.css",
-    "static/js/main.2a4dee15.chunk.js"
+    "static/js/main.c866cfb0.chunk.js"
   ]
 }
