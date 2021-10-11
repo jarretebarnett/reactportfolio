@@ -3,7 +3,7 @@ import eyeicon from "../../img/eyeicon.png";
 import closeheadshot from "../../img/closeheadshot.png";
 import resumecloseup from "../../img/resumecloseup.png";
 import trekgambit from "../../img/trekgambit.png";
-import resume from "../../docs/ResumeCert.pdf";
+import resume from "../../docs/Resume.pdf";
 
 function Home() {
     return (
@@ -13,13 +13,13 @@ function Home() {
             <br />
             <br />
             <div className="jumbotron">
-                Full-Stack Web Developer
+                Full Stack Software Engineer
             </div>
             <br />
             <br />
             <br />
             <h5>
-                Welcome to my portfolio, which consists of developmental projects and exercises over the course of my studies and practices with Full-Stack Software Engineering. Work provided includes server-side JavaScript which envelops the behavior and characteristics of working user interfaces, as well as raw back-end handling of hard-coded data or prompted user input. Browse the site for direct links to applications, as well as contact information for professional inquiry.
+                Welcome to my portfolio, which consists of developmental projects and exercises over the course of my studies and practices with Full Stack Software Engineering. Work provided includes server-side JavaScript which envelops the behavior and characteristics of working user interfaces, as well as raw back-end handling of hard-coded data or prompted user input. Browse the site for direct links to applications, as well as contact information for professional inquiry.
             </h5>
             <br />
             <br />

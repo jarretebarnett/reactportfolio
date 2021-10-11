@@ -1,5 +1,6 @@
 import React from "react";
-import resume from "../../docs/ResumeCert.pdf";
+import resume from "../../docs/Resume.pdf";
+import certs from "../../docs/Certs.pdf";
 
 function Nav() {
   return (
@@ -12,7 +13,8 @@ function Nav() {
             </a>
             <a className="nav-link" href="/reactportfolio/#/portfolio">Portfolio</a>
             <a className="nav-link" href="/reactportfolio/#/contact">Contact | About</a>
-            <a className="nav-link" href={resume} rel="noreferrer" target="_blank">Résumé</a>
+            <a className="nav-link" href={resume} rel="noreferrer" target="_blank">Resumé</a>
+            <a className="nav-link" href={certs} rel="noreferrer" target="_blank">Certificates</a>
           </div>
         </div>
       </div>
