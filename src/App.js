@@ -13,8 +13,8 @@ function App() {
       <Nav />
         <Switch>
           <Route component = {Home} path = "/" exact />
-          <Route component = {Portfolio} path = "/portfolio" />
-          <Route component = {Contact} path = "/contact" />
+          <Route component = {Portfolio} path = "/projects" />
+          <Route component = {Contact} path = "/bio" />
         </Switch>
     </Router>
   );

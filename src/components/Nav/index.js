@@ -11,8 +11,8 @@ function Nav() {
             <a className="navbar-brand" href="/reactportfolio">
               Jarreté Barnett
             </a>
-            <a className="nav-link" href="/reactportfolio/#/portfolio">Portfolio</a>
-            <a className="nav-link" href="/reactportfolio/#/contact">Contact | About</a>
+            <a className="nav-link" href="/reactportfolio/#/projects">Portfolio</a>
+            <a className="nav-link" href="/reactportfolio/#/bio">Contact | About</a>
             <a className="nav-link" href={resume} rel="noreferrer" target="_blank">Resumé</a>
             <a className="nav-link" href={certs} rel="noreferrer" target="_blank">Certificates</a>
           </div>
